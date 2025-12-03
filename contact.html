@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="about.css"> 
+    <link rel="stylesheet" href="contact.css"> 
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap">
+</head>
+
+<body>
+
+<header class="container">
+    <nav id="desktopNav">
+        <div class="left">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="portfolio.html">Portfolio</a> |
+            <a href="">Alternative Version</a> |
+        </div>
+
+        <div class="right">
+            <a href="resume.html">Cover Letter</a> |
+            <a href="contact.html">Contacts</a>
+        </div>
+    </nav>
+
+    <!-- Mobile Nav -->
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="">CoverLetter</a>
+            <a href="contact.html">Contacts</a>
+        </div>
+    </div>
+    <span id="menuIcon" onclick="openNav()">&#9776;</span>
+</header>
+
+
+<main>
+    <div class="contact-container">
+
+        <h1>Contact Me</h1>
+        <p class="sub">
+            Whether you're looking to collaborate, recruit, or simply connect, feel free to reach out.
+        </p>
+
+        <div class="contact-card">
+
+            <h2>Email</h2>
+            <p>
+                <a href="mailto:000877023@mohawkcollege.ca">
+                    000877023@mohawkcollege.ca
+                </a>
+            </p>
+
+            <h2>LinkedIn</h2>
+            <p>
+                <a href="https://ca.linkedin.com/in/wesley-kwong" target="_blank">
+                    My LinkedIn Profile
+                </a>
+            </p>
+
+            <h2>GitHub</h2>
+            <p>
+                <a href="https://github.com/WesleyKwong44/" target="_blank">
+                    My GitHub Profile
+                </a>
+            </p>
+
+            <!-- <h2>Send a Message</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form> -->
+
+        </div>
+
+    </div>
+</main>
+
+
+<script src="script.js"></script>
+</body>
+</html>
